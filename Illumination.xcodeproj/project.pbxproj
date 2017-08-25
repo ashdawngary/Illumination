@@ -194,15 +194,18 @@
 					2B3E79201F508286006683EF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VNGY7ULMK2;
+						LastSwiftMigration = 0830;
 					};
 					2B3E79341F508286006683EF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VNGY7ULMK2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 2B3E79201F508286006683EF;
 					};
 					2B3E793F1F508286006683EF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VNGY7ULMK2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 2B3E79201F508286006683EF;
 					};
 				};
@@ -406,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.Illumination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.Illumination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Illumination.app/Illumination";
 			};
 			name = Debug;
@@ -440,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Illumination.app/Illumination";
 			};
 			name = Release;
@@ -451,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Illumination;
 			};
 			name = Debug;
@@ -462,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Illumination;
 			};
 			name = Release;
@@ -485,6 +494,7 @@
 				2B3E794B1F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3E794C1F508286006683EF /* Build configuration list for PBXNativeTarget "IlluminationTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +503,7 @@
 				2B3E794E1F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3E794F1F508286006683EF /* Build configuration list for PBXNativeTarget "IlluminationUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +512,7 @@
 				2B3E79511F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
