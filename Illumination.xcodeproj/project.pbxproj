@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0553BA4C1F5469F70025AA52 /* my_logo (16).png in Resources */ = {isa = PBXBuildFile; fileRef = 0553BA4B1F5469F70025AA52 /* my_logo (16).png */; };
 		2B3E79251F508286006683EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79241F508286006683EF /* AppDelegate.swift */; };
 		2B3E79271F508286006683EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79261F508286006683EF /* ViewController.swift */; };
 		2B3E792A1F508286006683EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3E79281F508286006683EF /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0553BA4B1F5469F70025AA52 /* my_logo (16).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "my_logo (16).png"; path = "../../../../Downloads/my_logo (16).png"; sourceTree = "<group>"; };
 		2B3E79211F508286006683EF /* Illumination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Illumination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3E79241F508286006683EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B3E79261F508286006683EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2B3E79241F508286006683EF /* AppDelegate.swift */,
 				2B3E79261F508286006683EF /* ViewController.swift */,
 				2B3E79281F508286006683EF /* Main.storyboard */,
+				0553BA4B1F5469F70025AA52 /* my_logo (16).png */,
 				2B3E792B1F508286006683EF /* Assets.xcassets */,
 				2B3E792D1F508286006683EF /* LaunchScreen.storyboard */,
 				2B3E79301F508286006683EF /* Info.plist */,
@@ -194,15 +197,18 @@
 					2B3E79201F508286006683EF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VNGY7ULMK2;
+						LastSwiftMigration = 0830;
 					};
 					2B3E79341F508286006683EF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VNGY7ULMK2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 2B3E79201F508286006683EF;
 					};
 					2B3E793F1F508286006683EF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VNGY7ULMK2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 2B3E79201F508286006683EF;
 					};
 				};
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */,
+				0553BA4C1F5469F70025AA52 /* my_logo (16).png in Resources */,
 				2B3E792C1F508286006683EF /* Assets.xcassets in Resources */,
 				2B3E792A1F508286006683EF /* Main.storyboard in Resources */,
 			);
@@ -406,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.Illumination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.Illumination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Illumination.app/Illumination";
 			};
 			name = Debug;
@@ -440,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Illumination.app/Illumination";
 			};
 			name = Release;
@@ -451,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Illumination;
 			};
 			name = Debug;
@@ -462,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashdawngary.IlluminationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Illumination;
 			};
 			name = Release;
@@ -485,6 +498,7 @@
 				2B3E794B1F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3E794C1F508286006683EF /* Build configuration list for PBXNativeTarget "IlluminationTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +507,7 @@
 				2B3E794E1F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3E794F1F508286006683EF /* Build configuration list for PBXNativeTarget "IlluminationUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +516,7 @@
 				2B3E79511F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
