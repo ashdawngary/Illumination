@@ -14,6 +14,12 @@
 		2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3E792D1F508286006683EF /* LaunchScreen.storyboard */; };
 		2B3E793A1F508286006683EF /* IlluminationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79391F508286006683EF /* IlluminationTests.swift */; };
 		2B3E79451F508286006683EF /* IlluminationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79441F508286006683EF /* IlluminationUITests.swift */; };
+		4DAE4DE31F64759A00962B35 /* Keyboard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE21F64759A00962B35 /* Keyboard.jpeg */; };
+		4DAE4DE51F6475A400962B35 /* Phone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE41F6475A400962B35 /* Phone.jpeg */; };
+		4DAE4DE71F6475A900962B35 /* Homebutton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE61F6475A900962B35 /* Homebutton.jpeg */; };
+		4DAE4DE91F6475B000962B35 /* PlayButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE81F6475B000962B35 /* PlayButton.jpeg */; };
+		4DAE4DEB1F6475B800962B35 /* ReplayButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DEA1F6475B800962B35 /* ReplayButton.jpeg */; };
+		4DAE4DED1F6475BD00962B35 /* PauseButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DEC1F6475BD00962B35 /* PauseButton.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		2B3E79401F508286006683EF /* IlluminationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlluminationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3E79441F508286006683EF /* IlluminationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlluminationUITests.swift; sourceTree = "<group>"; };
 		2B3E79461F508286006683EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAE4DE21F64759A00962B35 /* Keyboard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Keyboard.jpeg; path = ../../../Downloads/Keyboard.jpeg; sourceTree = "<group>"; };
+		4DAE4DE41F6475A400962B35 /* Phone.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Phone.jpeg; path = ../../../Downloads/Phone.jpeg; sourceTree = "<group>"; };
+		4DAE4DE61F6475A900962B35 /* Homebutton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Homebutton.jpeg; path = ../../../Downloads/Homebutton.jpeg; sourceTree = "<group>"; };
+		4DAE4DE81F6475B000962B35 /* PlayButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PlayButton.jpeg; path = ../../../Downloads/PlayButton.jpeg; sourceTree = "<group>"; };
+		4DAE4DEA1F6475B800962B35 /* ReplayButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ReplayButton.jpeg; path = ../../../Downloads/ReplayButton.jpeg; sourceTree = "<group>"; };
+		4DAE4DEC1F6475BD00962B35 /* PauseButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PauseButton.jpeg; path = ../../../Downloads/PauseButton.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,12 @@
 				2B3E79381F508286006683EF /* IlluminationTests */,
 				2B3E79431F508286006683EF /* IlluminationUITests */,
 				2B3E79221F508286006683EF /* Products */,
+				4DAE4DE21F64759A00962B35 /* Keyboard.jpeg */,
+				4DAE4DE41F6475A400962B35 /* Phone.jpeg */,
+				4DAE4DE61F6475A900962B35 /* Homebutton.jpeg */,
+				4DAE4DE81F6475B000962B35 /* PlayButton.jpeg */,
+				4DAE4DEA1F6475B800962B35 /* ReplayButton.jpeg */,
+				4DAE4DEC1F6475BD00962B35 /* PauseButton.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,7 +252,13 @@
 			files = (
 				2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */,
 				2B3E792C1F508286006683EF /* Assets.xcassets in Resources */,
+				4DAE4DE71F6475A900962B35 /* Homebutton.jpeg in Resources */,
+				4DAE4DE31F64759A00962B35 /* Keyboard.jpeg in Resources */,
 				2B3E792A1F508286006683EF /* Main.storyboard in Resources */,
+				4DAE4DED1F6475BD00962B35 /* PauseButton.jpeg in Resources */,
+				4DAE4DE91F6475B000962B35 /* PlayButton.jpeg in Resources */,
+				4DAE4DEB1F6475B800962B35 /* ReplayButton.jpeg in Resources */,
+				4DAE4DE51F6475A400962B35 /* Phone.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +381,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -394,6 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -485,6 +511,7 @@
 				2B3E794B1F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3E794C1F508286006683EF /* Build configuration list for PBXNativeTarget "IlluminationTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +520,7 @@
 				2B3E794E1F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3E794F1F508286006683EF /* Build configuration list for PBXNativeTarget "IlluminationUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +529,7 @@
 				2B3E79511F508286006683EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
