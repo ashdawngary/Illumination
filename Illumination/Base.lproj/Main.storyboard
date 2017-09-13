@@ -43,7 +43,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Jya-LG-p9O">
                     <connections>
-                        <segue destination="WMw-D9-G91" kind="presentation" id="eW6-iA-e5r"/>
+                        <segue destination="RGf-gV-9HY" kind="presentation" id="aTP-I6-Zm4"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -100,7 +100,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ov6-9D-B4f">
-                                <rect key="frame" x="138" y="462" width="98" height="36"/>
+                                <rect key="frame" x="125" y="464" width="122" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.58955091240000002" blue="0.27832815049999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
@@ -122,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52m-l0-zI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="22"/>
+            <point key="canvasLocation" x="692" y="21.139430284857571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gEC-Ow-6bI">
@@ -246,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6m8-VN-d2k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1402" y="21"/>
+            <point key="canvasLocation" x="1400.8" y="20.239880059970016"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xF5-7D-3VV">
@@ -516,21 +516,28 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="OEG-4W-0Ia">
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="OEG-4W-0Ia">
                                 <rect key="frame" x="168" y="605" width="39" height="37"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.31876070210000002" green="0.31876070210000002" blue="0.31876070210000002" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="a0s-7h-wsd" firstAttribute="top" secondItem="Uxl-Vr-NRz" secondAttribute="bottom" constant="80" id="7YU-t5-jQl"/>
                             <constraint firstItem="NUa-DB-oyV" firstAttribute="top" secondItem="J3u-vX-KlS" secondAttribute="bottom" constant="70" id="LOS-aQ-bIh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OEG-4W-0Ia" secondAttribute="trailing" constant="152" id="M1K-qv-i5f"/>
                             <constraint firstItem="6Vy-TP-3gh" firstAttribute="top" secondItem="OEG-4W-0Ia" secondAttribute="bottom" constant="25" id="aAy-tX-Ef6"/>
                             <constraint firstItem="NUa-DB-oyV" firstAttribute="leading" secondItem="Cv9-cS-KxS" secondAttribute="leadingMargin" constant="38.5" id="nPX-5X-m7r"/>
+                            <constraint firstItem="OEG-4W-0Ia" firstAttribute="leading" secondItem="Cv9-cS-KxS" secondAttribute="leadingMargin" constant="152" id="oIx-Xu-3Qr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NUa-DB-oyV" secondAttribute="trailing" constant="38.5" id="zzr-x9-KuH"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="82u-Fz-MHr" appends="YES" id="n3d-qT-eXK"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GcK-Yi-2iJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="82u-Fz-MHr"/>
             </objects>
             <point key="canvasLocation" x="3554" y="126"/>
         </scene>
@@ -550,8 +557,9 @@
                                 <rect key="frame" x="8" y="8" width="57" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW0-fv-GOa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW0-fv-GOa">
                                 <rect key="frame" x="75" y="100" width="225" height="47.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.58955091240000002" blue="0.27832815049999998" alpha="1" colorSpace="deviceRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Ali Rothrock">
@@ -564,11 +572,12 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-vu-MxM">
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-vu-MxM">
                                 <rect key="frame" x="168" y="605" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2U0-hu-8I0">
-                                <rect key="frame" x="61" y="174" width="253" height="373"/>
+                                <rect key="frame" x="50" y="177" width="275" height="385"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Ali is a national speaker who shares her experience with embracing the gift of challenge, overcoming adversity and learning true resilience. As a sixteen year old, Ali became a volunteer firefighter and experienced sexual harassment, sexual assault, and years of bullying at the hands of her fellow firefighters. Unaware of how deeply the constant stress was affecting her, Ali began to change psychologically and emotionally until she was no longer mentally well. While struggling to pursue her passion for firefighting, Ali developed Post Traumatic Stress Disorder that kept her stuck in the past and kept her from engaging in life. Through working with a wonderful therapist and surrounding herself with the love and support of family and friends, Ali learned how to take her life back and live it freely. Ali was able to re-identify herself as a victor instead of a victim and loves helping people do the same.
@@ -581,15 +590,138 @@ Ali has served on numerous national committees working to make the fire service 
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.31876070210000002" green="0.31876070210000002" blue="0.31876070210000002" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Xeo-zl-h0A" appends="YES" id="EXs-rM-kbg"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="ygh-fB-ERa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6R-4Y-31C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="Xeo-zl-h0A"/>
+            </objects>
+            <point key="canvasLocation" x="4421.6000000000004" y="9.4452773613193415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kxk-F4-bMV">
+            <objects>
+                <viewController id="rgQ-gH-Pxk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2cN-eB-6kK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oac-CX-mqu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1DE-bU-mJ0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="my_logo (27).png" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-yr-unm">
+                                <rect key="frame" x="8" y="8" width="57" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="bqH-q6-G5a">
+                                <rect key="frame" x="168" y="605" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1u-hU-va4">
+                                <rect key="frame" x="53" y="177" width="269" height="385"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Andrew Onimus had it all entering his senior year at Muhlenberg College. He was a starting defensive back for the football team, named captain of the track and field team, and already had a full-time position upon graduation with a large accounting firm in Philadelphia. However, an injury in the first game of the season and increasing pressure to perform caused drastic changes for him. Andrew lost his identity and began deeply struggling. His issues started with insomnia with trouble concentrating in class and on the field. This led him to spiral into a deep, lonely hole. Andrew hid his struggles from family and friends as he pretended that everything was fine, until he experienced suicidal ideations and reached a point where he desperately needed help. After a visit to the ER, he was diagnosed with major clinical depression and severe anxiety, which was extremely difficult for him to accept.
+
+With a strong support group behind him, Andrew and his family began taking the needed steps toward recovery. He took medication for his depression and anxiety and began both psychotherapy and cognitive behavioral therapy. It was difficult at first, but over time Andrew began to see a light at the end of the tunnel. He turned to exercise and positive coping skills to work through his inner anger and pain. As his life started to gradually improve, Andrew shared his story in spring of 2014 with many of his teammates, classmates, and friends in the hopes that it would help someone else. The overwhelmingly positive feedback he received inspired him to continue talking about mental health. Andrew’s goal in working with Minding Your Mind is to help reduce the stigma surrounding mental health issue, and help others who may be suffering to know that they are not alone and that it gets better.
+
+
+</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBh-Q4-rXr">
+                                <rect key="frame" x="54" y="96" width="266.5" height="47.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.58955091240000002" blue="0.27832815049999998" alpha="1" colorSpace="deviceRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Andrew Onimus">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.58955091240000002" blue="0.27832815049999998" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="40" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31876070210000002" green="0.31876070210000002" blue="0.31876070210000002" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ywj-ij-Spm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrP-aB-5Pb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5127" y="9"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OLp-kB-NHd">
+            <objects>
+                <viewController id="ONN-av-9hq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1oC-Zc-BI1"/>
+                        <viewControllerLayoutGuide type="bottom" id="RWo-br-r7P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ct4-WC-5aV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="my_logo (27).png" translatesAutoresizingMaskIntoConstraints="NO" id="FEI-Za-RPK">
+                                <rect key="frame" x="8" y="8" width="57" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y8n-BD-qKy">
+                                <rect key="frame" x="168" y="605" width="39" height="37"/>
+                            </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giN-Dk-iNS">
+                                <rect key="frame" x="53" y="177" width="269" height="385"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Melissa Ann Rice is a motivational speaker, mental health and anti-bullying advocate, and author of “The People You Meet in Real Life.” She is a 2009 honors graduate of Immaculata University and speaks with Minding Your Minds’ speaking program about mental health specifically Depression, Anxiety, Obsessive Compulsive Disorder, anti-bullying, positive coping and peer support and is on the board of the Philadelphia chapter of the American Foundation for Suicide Prevention (AFSP). She mentors a student run peer-to-peer support group called CogWell at the University of Pennsylvania and has been recognized for her advocacy work with numerous awards including the honorable mention Jerry Greenspan Student Voice of Mental Health Award given by the Jed Foundation of America at a gala in June 2009 in New York City.
+
+Melissa has appeared on several local radio and television programs including 99.5 WJBR’s Sunday Morning show, the CW Philly’s Speak Up and a NBC10 special “Beyond Bullying” with News anchor Lori Wilson. She was also featured as Mark Wahlberg’s science student in M. Night Shyamalan’s film, The Happening and is involved with numerous national mental health organizations, which have given her the chance to host and attend many events where she has worked with celebrities and public figures such as Mariel Hemingway, Brittany Snow, Joey Pantoliano, Ron Howard and Glenn Close.
+
+Melissa’s first book “The People You Meet in Real Life,” which features her personal story and the amazing first-hand stories of people she has found inspiration and hope from along her journey, was released in 2013. Melissa is currently working with the non-profit organization iChoose2live (www.ichoose2live.com) on an anti-bullying and anti-violence campaign for the Philadelphia area and also working to release her first music single called “Hope Strong”.
+</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcu-1E-e6k">
+                                <rect key="frame" x="75" y="100" width="225" height="47.5"/>
+                                <color key="tintColor" red="1" green="0.58955091240000002" blue="0.27832815049999998" alpha="1" colorSpace="deviceRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Melissa Rice">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.58955091240000002" blue="0.27832815049999998" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="40" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31876070210000002" green="0.31876070210000002" blue="0.31876070210000002" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstItem="WW0-fv-GOa" firstAttribute="top" secondItem="d9Q-TI-byj" secondAttribute="bottom" constant="80" id="V4G-8z-WgE"/>
-                            <constraint firstItem="WkI-vC-x42" firstAttribute="top" secondItem="S5d-vu-MxM" secondAttribute="bottom" constant="25" id="rRG-4i-xHB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y8n-BD-qKy" secondAttribute="trailing" constant="152" id="9MO-br-V6I"/>
+                            <constraint firstItem="Y8n-BD-qKy" firstAttribute="leading" secondItem="Ct4-WC-5aV" secondAttribute="leadingMargin" constant="152" id="EDW-c3-VAT"/>
+                            <constraint firstItem="hcu-1E-e6k" firstAttribute="top" secondItem="1oC-Zc-BI1" secondAttribute="bottom" constant="80" id="MbB-b4-SE0"/>
+                            <constraint firstItem="RWo-br-r7P" firstAttribute="top" secondItem="Y8n-BD-qKy" secondAttribute="bottom" constant="25" id="t9Z-Ck-cK9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hcu-1E-e6k" secondAttribute="trailing" constant="59" id="tVm-P7-G3c"/>
+                            <constraint firstItem="hcu-1E-e6k" firstAttribute="leading" secondItem="Ct4-WC-5aV" secondAttribute="leadingMargin" constant="59" id="uWc-pY-3ph"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y6R-4Y-31C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fjl-ry-62F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4308" y="20.239880059970016"/>
+            <point key="canvasLocation" x="5876" y="9"/>
         </scene>
     </scenes>
     <resources>
