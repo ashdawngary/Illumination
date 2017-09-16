@@ -14,12 +14,12 @@
 		2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3E792D1F508286006683EF /* LaunchScreen.storyboard */; };
 		2B3E793A1F508286006683EF /* IlluminationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79391F508286006683EF /* IlluminationTests.swift */; };
 		2B3E79451F508286006683EF /* IlluminationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79441F508286006683EF /* IlluminationUITests.swift */; };
-		4DAE4DE31F64759A00962B35 /* Keyboard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE21F64759A00962B35 /* Keyboard.jpeg */; };
-		4DAE4DE51F6475A400962B35 /* Phone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE41F6475A400962B35 /* Phone.jpeg */; };
-		4DAE4DE71F6475A900962B35 /* Homebutton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE61F6475A900962B35 /* Homebutton.jpeg */; };
-		4DAE4DE91F6475B000962B35 /* PlayButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DE81F6475B000962B35 /* PlayButton.jpeg */; };
-		4DAE4DEB1F6475B800962B35 /* ReplayButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DEA1F6475B800962B35 /* ReplayButton.jpeg */; };
-		4DAE4DED1F6475BD00962B35 /* PauseButton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE4DEC1F6475BD00962B35 /* PauseButton.jpeg */; };
+		4D82A5401F6D501500686239 /* Marley1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A53F1F6D501500686239 /* Marley1.png */; };
+		4D82A5421F6D504600686239 /* Marley2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A5411F6D504600686239 /* Marley2.png */; };
+		4D82A5481F6D5E4300686239 /* keyboard-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A5471F6D5E4300686239 /* keyboard-2-xxl.png */; };
+		4D82A54A1F6D5E6D00686239 /* information_i.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A5491F6D5E6D00686239 /* information_i.png */; };
+		4D82A54C1F6D5E8D00686239 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A54B1F6D5E8D00686239 /* phone.png */; };
+		4D82A54E1F6D5F4A00686239 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A54D1F6D5F4A00686239 /* play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		2B3E79401F508286006683EF /* IlluminationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlluminationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3E79441F508286006683EF /* IlluminationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlluminationUITests.swift; sourceTree = "<group>"; };
 		2B3E79461F508286006683EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DAE4DE21F64759A00962B35 /* Keyboard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Keyboard.jpeg; path = ../../../Downloads/Keyboard.jpeg; sourceTree = "<group>"; };
-		4DAE4DE41F6475A400962B35 /* Phone.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Phone.jpeg; path = ../../../Downloads/Phone.jpeg; sourceTree = "<group>"; };
-		4DAE4DE61F6475A900962B35 /* Homebutton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Homebutton.jpeg; path = ../../../Downloads/Homebutton.jpeg; sourceTree = "<group>"; };
-		4DAE4DE81F6475B000962B35 /* PlayButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PlayButton.jpeg; path = ../../../Downloads/PlayButton.jpeg; sourceTree = "<group>"; };
-		4DAE4DEA1F6475B800962B35 /* ReplayButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ReplayButton.jpeg; path = ../../../Downloads/ReplayButton.jpeg; sourceTree = "<group>"; };
-		4DAE4DEC1F6475BD00962B35 /* PauseButton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PauseButton.jpeg; path = ../../../Downloads/PauseButton.jpeg; sourceTree = "<group>"; };
+		4D82A53F1F6D501500686239 /* Marley1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marley1.png; path = ../../../Desktop/Marley1.png; sourceTree = "<group>"; };
+		4D82A5411F6D504600686239 /* Marley2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marley2.png; path = ../../../Desktop/Marley2.png; sourceTree = "<group>"; };
+		4D82A5471F6D5E4300686239 /* keyboard-2-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "keyboard-2-xxl.png"; path = "../../../Downloads/Pics/keyboard-2-xxl.png"; sourceTree = "<group>"; };
+		4D82A5491F6D5E6D00686239 /* information_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = information_i.png; path = ../../../Downloads/Pics/information_i.png; sourceTree = "<group>"; };
+		4D82A54B1F6D5E8D00686239 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phone.png; path = ../../../Downloads/Pics/phone.png; sourceTree = "<group>"; };
+		4D82A54D1F6D5F4A00686239 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../../Downloads/Pics/play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +93,12 @@
 				2B3E79381F508286006683EF /* IlluminationTests */,
 				2B3E79431F508286006683EF /* IlluminationUITests */,
 				2B3E79221F508286006683EF /* Products */,
-				4DAE4DE21F64759A00962B35 /* Keyboard.jpeg */,
-				4DAE4DE41F6475A400962B35 /* Phone.jpeg */,
-				4DAE4DE61F6475A900962B35 /* Homebutton.jpeg */,
-				4DAE4DE81F6475B000962B35 /* PlayButton.jpeg */,
-				4DAE4DEA1F6475B800962B35 /* ReplayButton.jpeg */,
-				4DAE4DEC1F6475BD00962B35 /* PauseButton.jpeg */,
+				4D82A54D1F6D5F4A00686239 /* play.png */,
+				4D82A54B1F6D5E8D00686239 /* phone.png */,
+				4D82A5491F6D5E6D00686239 /* information_i.png */,
+				4D82A5471F6D5E4300686239 /* keyboard-2-xxl.png */,
+				4D82A5411F6D504600686239 /* Marley2.png */,
+				4D82A53F1F6D501500686239 /* Marley1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,15 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D82A5481F6D5E4300686239 /* keyboard-2-xxl.png in Resources */,
 				2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */,
+				4D82A54E1F6D5F4A00686239 /* play.png in Resources */,
 				2B3E792C1F508286006683EF /* Assets.xcassets in Resources */,
-				4DAE4DE71F6475A900962B35 /* Homebutton.jpeg in Resources */,
-				4DAE4DE31F64759A00962B35 /* Keyboard.jpeg in Resources */,
+				4D82A5421F6D504600686239 /* Marley2.png in Resources */,
+				4D82A54A1F6D5E6D00686239 /* information_i.png in Resources */,
 				2B3E792A1F508286006683EF /* Main.storyboard in Resources */,
-				4DAE4DED1F6475BD00962B35 /* PauseButton.jpeg in Resources */,
-				4DAE4DE91F6475B000962B35 /* PlayButton.jpeg in Resources */,
-				4DAE4DEB1F6475B800962B35 /* ReplayButton.jpeg in Resources */,
-				4DAE4DE51F6475A400962B35 /* Phone.jpeg in Resources */,
+				4D82A5401F6D501500686239 /* Marley1.png in Resources */,
+				4D82A54C1F6D5E8D00686239 /* phone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
