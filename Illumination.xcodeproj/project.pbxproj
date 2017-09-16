@@ -14,12 +14,13 @@
 		2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3E792D1F508286006683EF /* LaunchScreen.storyboard */; };
 		2B3E793A1F508286006683EF /* IlluminationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79391F508286006683EF /* IlluminationTests.swift */; };
 		2B3E79451F508286006683EF /* IlluminationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3E79441F508286006683EF /* IlluminationUITests.swift */; };
-		4D82A5401F6D501500686239 /* Marley1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A53F1F6D501500686239 /* Marley1.png */; };
-		4D82A5421F6D504600686239 /* Marley2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A5411F6D504600686239 /* Marley2.png */; };
-		4D82A5481F6D5E4300686239 /* keyboard-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A5471F6D5E4300686239 /* keyboard-2-xxl.png */; };
-		4D82A54A1F6D5E6D00686239 /* information_i.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A5491F6D5E6D00686239 /* information_i.png */; };
-		4D82A54C1F6D5E8D00686239 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A54B1F6D5E8D00686239 /* phone.png */; };
-		4D82A54E1F6D5F4A00686239 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D82A54D1F6D5F4A00686239 /* play.png */; };
+		4DAFBB541F6DCFD00037B070 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB531F6DCFD00037B070 /* play.png */; };
+		4DAFBB561F6DD0510037B070 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB551F6DD0510037B070 /* phone.png */; };
+		4DAFBB581F6DD0C60037B070 /* keyboard-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB571F6DD0C60037B070 /* keyboard-2-xxl.png */; };
+		4DAFBB5B1F6DD15C0037B070 /* my_logo (8) 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB591F6DD15C0037B070 /* my_logo (8) 2.png */; };
+		4DAFBB5C1F6DD15C0037B070 /* my_logo (10) 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB5A1F6DD15C0037B070 /* my_logo (10) 2.png */; };
+		4DAFBB5F1F6DD1740037B070 /* Marley1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB5D1F6DD1740037B070 /* Marley1.png */; };
+		4DAFBB601F6DD1740037B070 /* Marley2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFBB5E1F6DD1740037B070 /* Marley2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +54,13 @@
 		2B3E79401F508286006683EF /* IlluminationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlluminationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3E79441F508286006683EF /* IlluminationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlluminationUITests.swift; sourceTree = "<group>"; };
 		2B3E79461F508286006683EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D82A53F1F6D501500686239 /* Marley1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marley1.png; path = ../../../Desktop/Marley1.png; sourceTree = "<group>"; };
-		4D82A5411F6D504600686239 /* Marley2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marley2.png; path = ../../../Desktop/Marley2.png; sourceTree = "<group>"; };
-		4D82A5471F6D5E4300686239 /* keyboard-2-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "keyboard-2-xxl.png"; path = "../../../Downloads/Pics/keyboard-2-xxl.png"; sourceTree = "<group>"; };
-		4D82A5491F6D5E6D00686239 /* information_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = information_i.png; path = ../../../Downloads/Pics/information_i.png; sourceTree = "<group>"; };
-		4D82A54B1F6D5E8D00686239 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phone.png; path = ../../../Downloads/Pics/phone.png; sourceTree = "<group>"; };
-		4D82A54D1F6D5F4A00686239 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../../Downloads/Pics/play.png; sourceTree = "<group>"; };
+		4DAFBB531F6DCFD00037B070 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		4DAFBB551F6DD0510037B070 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		4DAFBB571F6DD0C60037B070 /* keyboard-2-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard-2-xxl.png"; sourceTree = "<group>"; };
+		4DAFBB591F6DD15C0037B070 /* my_logo (8) 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_logo (8) 2.png"; sourceTree = "<group>"; };
+		4DAFBB5A1F6DD15C0037B070 /* my_logo (10) 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_logo (10) 2.png"; sourceTree = "<group>"; };
+		4DAFBB5D1F6DD1740037B070 /* Marley1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Marley1.png; sourceTree = "<group>"; };
+		4DAFBB5E1F6DD1740037B070 /* Marley2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Marley2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,16 +91,17 @@
 		2B3E79181F508285006683EF = {
 			isa = PBXGroup;
 			children = (
+				4DAFBB5D1F6DD1740037B070 /* Marley1.png */,
+				4DAFBB5E1F6DD1740037B070 /* Marley2.png */,
+				4DAFBB591F6DD15C0037B070 /* my_logo (8) 2.png */,
+				4DAFBB5A1F6DD15C0037B070 /* my_logo (10) 2.png */,
+				4DAFBB571F6DD0C60037B070 /* keyboard-2-xxl.png */,
+				4DAFBB551F6DD0510037B070 /* phone.png */,
+				4DAFBB531F6DCFD00037B070 /* play.png */,
 				2B3E79231F508286006683EF /* Illumination */,
 				2B3E79381F508286006683EF /* IlluminationTests */,
 				2B3E79431F508286006683EF /* IlluminationUITests */,
 				2B3E79221F508286006683EF /* Products */,
-				4D82A54D1F6D5F4A00686239 /* play.png */,
-				4D82A54B1F6D5E8D00686239 /* phone.png */,
-				4D82A5491F6D5E6D00686239 /* information_i.png */,
-				4D82A5471F6D5E4300686239 /* keyboard-2-xxl.png */,
-				4D82A5411F6D504600686239 /* Marley2.png */,
-				4D82A53F1F6D501500686239 /* Marley1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,15 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D82A5481F6D5E4300686239 /* keyboard-2-xxl.png in Resources */,
 				2B3E792F1F508286006683EF /* LaunchScreen.storyboard in Resources */,
-				4D82A54E1F6D5F4A00686239 /* play.png in Resources */,
+				4DAFBB5F1F6DD1740037B070 /* Marley1.png in Resources */,
+				4DAFBB541F6DCFD00037B070 /* play.png in Resources */,
+				4DAFBB5B1F6DD15C0037B070 /* my_logo (8) 2.png in Resources */,
 				2B3E792C1F508286006683EF /* Assets.xcassets in Resources */,
-				4D82A5421F6D504600686239 /* Marley2.png in Resources */,
-				4D82A54A1F6D5E6D00686239 /* information_i.png in Resources */,
+				4DAFBB561F6DD0510037B070 /* phone.png in Resources */,
 				2B3E792A1F508286006683EF /* Main.storyboard in Resources */,
-				4D82A5401F6D501500686239 /* Marley1.png in Resources */,
-				4D82A54C1F6D5E8D00686239 /* phone.png in Resources */,
+				4DAFBB581F6DD0C60037B070 /* keyboard-2-xxl.png in Resources */,
+				4DAFBB601F6DD1740037B070 /* Marley2.png in Resources */,
+				4DAFBB5C1F6DD15C0037B070 /* my_logo (10) 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
